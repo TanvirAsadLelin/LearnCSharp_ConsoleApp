@@ -23,6 +23,7 @@ namespace LearnCSharp_ConsoleApp
                 switch (value)
                 {
 
+
                     case 1:
                         Console.WriteLine("You enter 1.\n");
                         break;
