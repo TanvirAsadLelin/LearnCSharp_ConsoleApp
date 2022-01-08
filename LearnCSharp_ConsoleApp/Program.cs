@@ -38,6 +38,7 @@ LearnCSharp_ConsoleApp.Operators operatorsObj = new LearnCSharp_ConsoleApp.Opera
 LearnCSharp_ConsoleApp.MathOperation mathOperationObj = new LearnCSharp_ConsoleApp.MathOperation();
 LearnCSharp_ConsoleApp.StringOperation stringOperationObj = new LearnCSharp_ConsoleApp.StringOperation();
 LearnCSharp_ConsoleApp.BooleansOperation booleansOperationObj = new LearnCSharp_ConsoleApp.BooleansOperation();
+LearnCSharp_ConsoleApp.IfElseAndSwitchStatement ifElseAndSwitchStatementObj = new LearnCSharp_ConsoleApp.IfElseAndSwitchStatement();
 
 do
 {
@@ -81,6 +82,9 @@ do
             booleansOperationObj.booleansOperationMethod();
             break;
 
+        case 10:
+            ifElseAndSwitchStatementObj.ifElseAndSwitchSatementMethod();
+            break;
 
         case 0:
             Console.WriteLine("Thank you");
