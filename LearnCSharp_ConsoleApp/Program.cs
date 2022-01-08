@@ -40,6 +40,7 @@ LearnCSharp_ConsoleApp.StringOperation stringOperationObj = new LearnCSharp_Cons
 LearnCSharp_ConsoleApp.BooleansOperation booleansOperationObj = new LearnCSharp_ConsoleApp.BooleansOperation();
 LearnCSharp_ConsoleApp.IfElseAndSwitchStatement ifElseAndSwitchStatementObj = new LearnCSharp_ConsoleApp.IfElseAndSwitchStatement();
 LearnCSharp_ConsoleApp.Loops loopsObj = new LearnCSharp_ConsoleApp.Loops();
+LearnCSharp_ConsoleApp.Arrays arraysObj = new LearnCSharp_ConsoleApp.Arrays();
 
 
 do
@@ -91,7 +92,9 @@ do
         case 11:
             loopsObj.loopsMethod();
             break;
-
+        case 12:
+            arraysObj.arraysMethod();
+            break;
 
         case 0:
             Console.WriteLine("Thank you");
