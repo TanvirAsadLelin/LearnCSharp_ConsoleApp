@@ -42,6 +42,7 @@ LearnCSharp_ConsoleApp.IfElseAndSwitchStatement ifElseAndSwitchStatementObj = ne
 LearnCSharp_ConsoleApp.Loops loopsObj = new LearnCSharp_ConsoleApp.Loops();
 LearnCSharp_ConsoleApp.Arrays arraysObj = new LearnCSharp_ConsoleApp.Arrays();
 LearnCSharp_ConsoleApp.MethodAndReturn methodAndReturnObj = new LearnCSharp_ConsoleApp.MethodAndReturn();
+LearnCSharp_ConsoleApp.ClassAndObjects classAndObjectsObj = new LearnCSharp_ConsoleApp.ClassAndObjects();
 
 
 do
@@ -98,6 +99,9 @@ do
             break;
         case 13:
             methodAndReturnObj.methodAndReturnMethod();
+            break;
+        case 14:
+            classAndObjectsObj.classAndObjectMethod();
             break;
 
         case 0:
