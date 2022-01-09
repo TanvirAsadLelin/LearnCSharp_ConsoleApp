@@ -21,6 +21,8 @@ Console.WriteLine("12.Arrays." + "  " + "Press:12\n");
 Console.WriteLine("13.Methods & Return" + "  " + "Press:13\n");
 Console.WriteLine("14.Exception Handling." + "  " + "Press:14\n");
 Console.WriteLine("15.Class & Objects." + "  " + "Press:15\n");
+Console.WriteLine("16.Constructors." + "  " + "Press:16\n");
+Console.WriteLine("17.Destructors Concept." + "  " + "Press:15\n");
 
 
 
@@ -46,6 +48,8 @@ LearnCSharp_ConsoleApp.Arrays arraysObj = new LearnCSharp_ConsoleApp.Arrays();
 LearnCSharp_ConsoleApp.MethodAndReturn methodAndReturnObj = new LearnCSharp_ConsoleApp.MethodAndReturn();
 LearnCSharp_ConsoleApp.ExceptionHandling ExceptionHandlingObj = new LearnCSharp_ConsoleApp.ExceptionHandling();
 LearnCSharp_ConsoleApp.ClassAndObjects classAndObjectsObj = new LearnCSharp_ConsoleApp.ClassAndObjects();
+LearnCSharp_ConsoleApp.Constructor constructorObj = new LearnCSharp_ConsoleApp.Constructor();
+LearnCSharp_ConsoleApp.Destructor destructorObj = new LearnCSharp_ConsoleApp.Destructor();
 
 
 
@@ -112,6 +116,15 @@ do
 
         case 15:
             classAndObjectsObj.classAndObjectMethod();
+            break;
+        case 16:
+           //Constructor part
+
+            break;
+
+        case 17:
+            //Destructor part
+
             break;
 
         case 0:
