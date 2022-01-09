@@ -19,7 +19,9 @@ Console.WriteLine("10.If...Else & Switch Statement." + "  " + "Press: 10\n");
 Console.WriteLine("11.Loops." + "  " + "Press:11\n");
 Console.WriteLine("12.Arrays." + "  " + "Press:12\n");
 Console.WriteLine("13.Methods & Return" + "  " + "Press:13\n");
-Console.WriteLine("14.Class & Objects." + "  " + "Press:14\n");
+Console.WriteLine("14.Exception Handling." + "  " + "Press:14\n");
+Console.WriteLine("15.Class & Objects." + "  " + "Press:15\n");
+
 
 
 Console.WriteLine("----------------------------\n");
@@ -42,7 +44,9 @@ LearnCSharp_ConsoleApp.IfElseAndSwitchStatement ifElseAndSwitchStatementObj = ne
 LearnCSharp_ConsoleApp.Loops loopsObj = new LearnCSharp_ConsoleApp.Loops();
 LearnCSharp_ConsoleApp.Arrays arraysObj = new LearnCSharp_ConsoleApp.Arrays();
 LearnCSharp_ConsoleApp.MethodAndReturn methodAndReturnObj = new LearnCSharp_ConsoleApp.MethodAndReturn();
+LearnCSharp_ConsoleApp.ExceptionHandling ExceptionHandlingObj = new LearnCSharp_ConsoleApp.ExceptionHandling();
 LearnCSharp_ConsoleApp.ClassAndObjects classAndObjectsObj = new LearnCSharp_ConsoleApp.ClassAndObjects();
+
 
 
 do
@@ -101,6 +105,12 @@ do
             methodAndReturnObj.methodAndReturnMethod();
             break;
         case 14:
+            ///Use for exception handling
+            ///
+            ExceptionHandlingObj.exceptionHandlingMethod();
+            break;
+
+        case 15:
             classAndObjectsObj.classAndObjectMethod();
             break;
 
