@@ -48,8 +48,8 @@ LearnCSharp_ConsoleApp.Arrays arraysObj = new LearnCSharp_ConsoleApp.Arrays();
 LearnCSharp_ConsoleApp.MethodAndReturn methodAndReturnObj = new LearnCSharp_ConsoleApp.MethodAndReturn();
 LearnCSharp_ConsoleApp.ExceptionHandling ExceptionHandlingObj = new LearnCSharp_ConsoleApp.ExceptionHandling();
 LearnCSharp_ConsoleApp.ClassAndObjects classAndObjectsObj = new LearnCSharp_ConsoleApp.ClassAndObjects();
-//LearnCSharp_ConsoleApp.Constructor constructorObj = new LearnCSharp_ConsoleApp.Constructor();
-LearnCSharp_ConsoleApp.Destructor destructorObj = new LearnCSharp_ConsoleApp.Destructor();
+//LearnCSharp_ConsoleApp.Constructor constructorObj = new LearnCSharp_ConsoleApp.Constructor(); use in switch case 16
+//LearnCSharp_ConsoleApp.Destructor destructorObj = new LearnCSharp_ConsoleApp.Destructor(); use in switch case 17
 
 
 
@@ -131,8 +131,17 @@ do
 
         case 17:
             //Destructor part
+            Console.WriteLine("Welcome to Desstructor part. \n");
+            LearnCSharp_ConsoleApp.Destructor destructorObj = new LearnCSharp_ConsoleApp.Destructor("lelin",25);
+
+            Console.WriteLine(destructorObj.name);
+            Console.WriteLine(destructorObj.age);
+            Console.WriteLine("The end of Desstructor part. \n");
 
             break;
+
+
+
 
         case 0:
             Console.WriteLine("Thank you");
