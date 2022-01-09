@@ -4,7 +4,7 @@ int pressValue;
 Console.WriteLine("C# Programming at a glance.\r");
 Console.WriteLine("----------------------------\n");
 
-Console.WriteLine("This  is a Console appplication.Here i am try my best to add all basic concept of C# Programming language with OOP.OOP stands for object oriented programming\n");
+Console.WriteLine("This  is a Console appplication.Here i am try my best to add all basic concept of C# Programming language with OOP.\n"+"OOP stands for object oriented programming\n");
 
 Console.WriteLine("1.About C# Programming." + "  " + "Press: 1\n");
 Console.WriteLine("2.Syntax & Comments." + "  " + "Press: 2\n");

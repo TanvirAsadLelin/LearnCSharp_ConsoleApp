@@ -26,11 +26,31 @@ namespace LearnCSharp_ConsoleApp
 
             Console.WriteLine("ClassName objectName = new ClassName();\n ");
             Console.WriteLine("For more details about class and object please click this website: \n ");
-            var uri = "https://www.programiz.com/csharp-programming/class-objects";
-            var psi = new ProcessStartInfo();
-            psi.UseShellExecute = true;
-            psi.FileName = uri;
-            Process.Start(psi);
+
+
+           
+            Console.WriteLine("Press 1 for know details. and go your browser...\n");
+            int value = Convert.ToInt32(Console.ReadLine());
+
+            switch (value)
+            {
+                case 1:
+                    var uri = "https://www.programiz.com/csharp-programming/class-objects";
+                    var psi = new ProcessStartInfo();
+                    psi.UseShellExecute = true;
+                    psi.FileName = uri;
+                    Process.Start(psi);
+
+                    break;
+
+                default:
+                    Console.WriteLine("You press wrong key");
+                    break;
+
+            }
+
+
+            
 
 
 
