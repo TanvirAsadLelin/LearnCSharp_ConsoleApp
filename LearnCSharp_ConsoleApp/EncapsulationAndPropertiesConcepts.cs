@@ -17,6 +17,16 @@ namespace LearnCSharp_ConsoleApp
             accountObj.setBalance (5000);
             accountObj.getBalance();
 
+            Console.WriteLine("\nProperties: \n");
+            accountObj.MovieName = "Life";
+            Console.WriteLine(accountObj.MovieName);
+
+            Console.WriteLine("End Encapsulation and Properties part. \n");
+
+
+
+
+
 
         }
        
@@ -24,7 +34,8 @@ namespace LearnCSharp_ConsoleApp
     }
 
     class Account
-    {
+    {       
+        //Encapsulation part 
         private int balance = 1000;
 
         public void setBalance(int balance)
@@ -43,6 +54,29 @@ namespace LearnCSharp_ConsoleApp
         public void getBalance()
         {
             Console.WriteLine("My account balance is : " + balance);
+        }
+        //Properties part start
+        private string movieName;
+
+
+        public string MovieName
+        {
+            set
+            {
+                if(value == "Lelin" || value =="Israt"|| value == "Anik")
+                {
+                    movieName = value;
+                }
+                else
+                {
+                    Console.WriteLine("Your movie name is not real.\n");
+                }
+
+            }
+            get
+            {
+                return movieName;
+            }
         }
     }
 

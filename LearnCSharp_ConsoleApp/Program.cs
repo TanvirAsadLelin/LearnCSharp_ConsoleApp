@@ -23,7 +23,7 @@ Console.WriteLine("14.Exception Handling." + "  " + "Press:14\n");
 Console.WriteLine("15.Class & Objects." + "  " + "Press:15\n");
 Console.WriteLine("16.Constructors." + "  " + "Press:16\n");
 Console.WriteLine("17.Destructors Concept." + "  " + "Press:17\n");
-Console.WriteLine("18.Destructors Concept." + "  " + "Press:18\n");
+Console.WriteLine("18.Encapsulation & Properties Concept." + "  " + "Press:18\n");
 
 
 
