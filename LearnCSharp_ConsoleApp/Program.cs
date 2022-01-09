@@ -22,7 +22,7 @@ Console.WriteLine("13.Methods & Return" + "  " + "Press:13\n");
 Console.WriteLine("14.Exception Handling." + "  " + "Press:14\n");
 Console.WriteLine("15.Class & Objects." + "  " + "Press:15\n");
 Console.WriteLine("16.Constructors." + "  " + "Press:16\n");
-Console.WriteLine("17.Destructors Concept." + "  " + "Press:15\n");
+Console.WriteLine("17.Destructors Concept." + "  " + "Press:17\n");
 
 
 
@@ -48,7 +48,7 @@ LearnCSharp_ConsoleApp.Arrays arraysObj = new LearnCSharp_ConsoleApp.Arrays();
 LearnCSharp_ConsoleApp.MethodAndReturn methodAndReturnObj = new LearnCSharp_ConsoleApp.MethodAndReturn();
 LearnCSharp_ConsoleApp.ExceptionHandling ExceptionHandlingObj = new LearnCSharp_ConsoleApp.ExceptionHandling();
 LearnCSharp_ConsoleApp.ClassAndObjects classAndObjectsObj = new LearnCSharp_ConsoleApp.ClassAndObjects();
-LearnCSharp_ConsoleApp.Constructor constructorObj = new LearnCSharp_ConsoleApp.Constructor();
+//LearnCSharp_ConsoleApp.Constructor constructorObj = new LearnCSharp_ConsoleApp.Constructor();
 LearnCSharp_ConsoleApp.Destructor destructorObj = new LearnCSharp_ConsoleApp.Destructor();
 
 
@@ -118,7 +118,14 @@ do
             classAndObjectsObj.classAndObjectMethod();
             break;
         case 16:
-           //Constructor part
+            //Constructor part
+            Console.WriteLine("Welcome to Constructor part. \n");
+            LearnCSharp_ConsoleApp.Constructor constructorObj = new LearnCSharp_ConsoleApp.Constructor("Bangla book", "Lelin Books Ltd.", 400);
+            Console.WriteLine(constructorObj.titleBook +"\n");
+            Console.WriteLine(constructorObj.authorBook + "\n");
+            Console.WriteLine(constructorObj.pagesBook + "\n");
+            Console.WriteLine("The end of Constructor part. \n");
+           
 
             break;
 
