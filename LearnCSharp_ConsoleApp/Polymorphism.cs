@@ -18,9 +18,12 @@ namespace LearnCSharp_ConsoleApp
             MethodOverloading methodOverloadingObj = new MethodOverloading();
             methodOverloadingObj.sum(2, 3);
 
-            Console.WriteLine("1.Method overriding: \n");
+            Console.WriteLine("2.Method overriding: \n");
 
-            Console.WriteLine("The end of polymorphism part. \n");
+            MethodOverriding methodOverridingObj = new MethodOverriding();
+            methodOverridingObj.OverridenMthod();
+
+            Console.WriteLine("\nThe end of polymorphism part. \n");
         }
     }
 
@@ -43,4 +46,32 @@ namespace LearnCSharp_ConsoleApp
             Console.WriteLine("Sum: " + res);
         }
     }
+
+
+    class MethodOverriding : ParentsClass
+    {
+
+        public void OverridenMthod()
+        {
+            Console.WriteLine("This method is overriden Here");
+        }
+
+
+
+    }
+
+    class ParentsClass
+    {    
+
+        public void PersonDetails()
+        {
+            Console.WriteLine("My name is Lelin");
+        }
+        public void OverridenMthod()
+        {
+            Console.WriteLine("This method is overriden");
+        }
+
+    }
+
 }
