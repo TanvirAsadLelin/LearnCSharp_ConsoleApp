@@ -18,15 +18,16 @@ Console.WriteLine("9.Booleans Operation." + "  " + "Press: 9\n");
 Console.WriteLine("10.If...Else & Switch Statement." + "  " + "Press: 10\n");
 Console.WriteLine("11.Loops." + "  " + "Press:11\n");
 Console.WriteLine("12.Arrays." + "  " + "Press:12\n");
-Console.WriteLine("13.Methods & Return" + "  " + "Press:13\n");
-Console.WriteLine("14.Exception Handling." + "  " + "Press:14\n");
-Console.WriteLine("15.Class & Objects." + "  " + "Press:15\n");
-Console.WriteLine("16.Constructors." + "  " + "Press:16\n");
-Console.WriteLine("17.Destructors Concept." + "  " + "Press:17\n");
-Console.WriteLine("18.Encapsulation & Properties Concept." + "  " + "Press:18\n");
-Console.WriteLine("19.Abstruction Concept." + "  " + "Press:19\n");
-Console.WriteLine("20.Inheritance." + "  " + "Press:20\n");
-Console.WriteLine("21.Polymorphism." + "  " + "Press:21\n");
+Console.WriteLine("13.List." + "  " + "Press:13\n");
+Console.WriteLine("14.Methods & Return" + "  " + "Press:14\n");
+Console.WriteLine("15.Exception Handling." + "  " + "Press:15\n");
+Console.WriteLine("16.Class & Objects." + "  " + "Press:16\n");
+Console.WriteLine("17.Constructors." + "  " + "Press:17\n");
+Console.WriteLine("18.Destructors Concept." + "  " + "Press:18\n");
+Console.WriteLine("19.Encapsulation & Properties Concept." + "  " + "Press:19\n");
+Console.WriteLine("20.Abstruction Concept." + "  " + "Press:20\n");
+Console.WriteLine("21.Inheritance." + "  " + "Press:21\n");
+Console.WriteLine("22.Polymorphism." + "  " + "Press:22\n");
 
 
 
@@ -114,19 +115,28 @@ do
         case 12:
             arraysObj.arraysMethod();
             break;
+
+     
+
         case 13:
+            //list
+
+
+            break;
+
+        case 14:
             methodAndReturnObj.methodAndReturnMethod();
             break;
-        case 14:
+        case 15:
             ///Use for exception handling
             ///
             ExceptionHandlingObj.exceptionHandlingMethod();
             break;
 
-        case 15:
+        case 16:
             classAndObjectsObj.classAndObjectMethod();
             break;
-        case 16:
+        case 17:
             //Constructor part
             Console.WriteLine("Welcome to Constructor part. \n");
             LearnCSharp_ConsoleApp.Constructor constructorObj = new LearnCSharp_ConsoleApp.Constructor("Bangla book", "Lelin Books Ltd.", 400);
@@ -138,7 +148,7 @@ do
 
             break;
 
-        case 17:
+        case 18:
             //Destructor part
             Console.WriteLine("Welcome to Desstructor part. \n");
             LearnCSharp_ConsoleApp.Destructor destructorObj = new LearnCSharp_ConsoleApp.Destructor("lelin",25);
@@ -149,18 +159,18 @@ do
 
             break;
 
-        case 18:
+        case 19:
             //Encapsulation 
             encapsulationAndPropertiesConceptsObj.encapAndProMethod();
             break;
 
-        case 19:
+        case 20:
             //Abstruction Concept
 
             abstractionObj.abstractionMethod();
 
             break;
-        case 20:
+        case 21:
             //Inheritance
 
             Console.WriteLine("Welcome to Inheritance part. \n");
@@ -171,7 +181,7 @@ do
 
             break;
 
-        case 21:
+        case 22:
             //Polymorphism Concept
 
             polymorphismObj.polymorphismMethod();
