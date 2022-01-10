@@ -26,6 +26,7 @@ Console.WriteLine("17.Destructors Concept." + "  " + "Press:17\n");
 Console.WriteLine("18.Encapsulation & Properties Concept." + "  " + "Press:18\n");
 Console.WriteLine("19.Abstruction Concept." + "  " + "Press:19\n");
 Console.WriteLine("20.Inheritance." + "  " + "Press:20\n");
+Console.WriteLine("21.Polymorphism." + "  " + "Press:21\n");
 
 
 
@@ -148,6 +149,7 @@ do
             break;
 
         case 18:
+            //Encapsulation 
             encapsulationAndPropertiesConceptsObj.encapAndProMethod();
             break;
 
@@ -165,6 +167,13 @@ do
             inheritanceObj.inheritenceMethod();
              
             Console.WriteLine("The end of Inheritance part. \n");
+
+            break;
+
+        case 21:
+            //Polymorphism Concept
+
+          
 
             break;
 
