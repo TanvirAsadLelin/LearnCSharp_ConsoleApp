@@ -55,6 +55,7 @@ LearnCSharp_ConsoleApp.ClassAndObjects classAndObjectsObj = new LearnCSharp_Cons
 //LearnCSharp_ConsoleApp.Constructor constructorObj = new LearnCSharp_ConsoleApp.Constructor(); use in switch case 16
 //LearnCSharp_ConsoleApp.Destructor destructorObj = new LearnCSharp_ConsoleApp.Destructor(); use in switch case 17
 LearnCSharp_ConsoleApp.EncapsulationAndPropertiesConcepts encapsulationAndPropertiesConceptsObj = new LearnCSharp_ConsoleApp.EncapsulationAndPropertiesConcepts();
+LearnCSharp_ConsoleApp.Abstraction abstractionObj = new LearnCSharp_ConsoleApp.Abstraction();
 LearnCSharp_ConsoleApp.Inheritance inheritanceObj = new LearnCSharp_ConsoleApp.Inheritance();
 
 
@@ -152,6 +153,9 @@ do
 
         case 19:
             //Abstruction Concept
+
+            abstractionObj.abstractionMethod();
+
             break;
         case 20:
             //Inheritance
