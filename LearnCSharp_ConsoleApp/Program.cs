@@ -24,6 +24,9 @@ Console.WriteLine("15.Class & Objects." + "  " + "Press:15\n");
 Console.WriteLine("16.Constructors." + "  " + "Press:16\n");
 Console.WriteLine("17.Destructors Concept." + "  " + "Press:17\n");
 Console.WriteLine("18.Encapsulation & Properties Concept." + "  " + "Press:18\n");
+Console.WriteLine("19.Abstruction Concept." + "  " + "Press:19\n");
+Console.WriteLine("20.Inheritance." + "  " + "Press:20\n");
+
 
 
 
@@ -52,7 +55,7 @@ LearnCSharp_ConsoleApp.ClassAndObjects classAndObjectsObj = new LearnCSharp_Cons
 //LearnCSharp_ConsoleApp.Constructor constructorObj = new LearnCSharp_ConsoleApp.Constructor(); use in switch case 16
 //LearnCSharp_ConsoleApp.Destructor destructorObj = new LearnCSharp_ConsoleApp.Destructor(); use in switch case 17
 LearnCSharp_ConsoleApp.EncapsulationAndPropertiesConcepts encapsulationAndPropertiesConceptsObj = new LearnCSharp_ConsoleApp.EncapsulationAndPropertiesConcepts();
-
+LearnCSharp_ConsoleApp.Inheritance inheritanceObj = new LearnCSharp_ConsoleApp.Inheritance();
 
 
 
@@ -147,6 +150,19 @@ do
             encapsulationAndPropertiesConceptsObj.encapAndProMethod();
             break;
 
+        case 19:
+            //Abstruction Concept
+            break;
+        case 20:
+            //Inheritance
+
+            Console.WriteLine("Welcome to Inheritance part. \n");
+
+            inheritanceObj.inheritenceMethod();
+             
+            Console.WriteLine("The end of Inheritance part. \n");
+
+            break;
 
 
         case 0:
