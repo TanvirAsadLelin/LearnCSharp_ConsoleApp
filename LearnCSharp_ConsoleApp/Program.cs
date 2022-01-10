@@ -51,6 +51,8 @@ LearnCSharp_ConsoleApp.BooleansOperation booleansOperationObj = new LearnCSharp_
 LearnCSharp_ConsoleApp.IfElseAndSwitchStatement ifElseAndSwitchStatementObj = new LearnCSharp_ConsoleApp.IfElseAndSwitchStatement();
 LearnCSharp_ConsoleApp.Loops loopsObj = new LearnCSharp_ConsoleApp.Loops();
 LearnCSharp_ConsoleApp.Arrays arraysObj = new LearnCSharp_ConsoleApp.Arrays();
+
+LearnCSharp_ConsoleApp.List listObj = new LearnCSharp_ConsoleApp.List();
 LearnCSharp_ConsoleApp.MethodAndReturn methodAndReturnObj = new LearnCSharp_ConsoleApp.MethodAndReturn();
 LearnCSharp_ConsoleApp.ExceptionHandling ExceptionHandlingObj = new LearnCSharp_ConsoleApp.ExceptionHandling();
 LearnCSharp_ConsoleApp.ClassAndObjects classAndObjectsObj = new LearnCSharp_ConsoleApp.ClassAndObjects();
@@ -121,7 +123,7 @@ do
         case 13:
             //list
 
-
+            listObj.listMethod();
             break;
 
         case 14:
