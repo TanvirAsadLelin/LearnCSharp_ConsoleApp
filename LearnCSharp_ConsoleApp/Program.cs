@@ -58,6 +58,7 @@ LearnCSharp_ConsoleApp.ClassAndObjects classAndObjectsObj = new LearnCSharp_Cons
 LearnCSharp_ConsoleApp.EncapsulationAndPropertiesConcepts encapsulationAndPropertiesConceptsObj = new LearnCSharp_ConsoleApp.EncapsulationAndPropertiesConcepts();
 LearnCSharp_ConsoleApp.Abstraction abstractionObj = new LearnCSharp_ConsoleApp.Abstraction();
 LearnCSharp_ConsoleApp.Inheritance inheritanceObj = new LearnCSharp_ConsoleApp.Inheritance();
+LearnCSharp_ConsoleApp.Polymorphism polymorphismObj = new LearnCSharp_ConsoleApp.Polymorphism();
 
 
 
@@ -173,7 +174,7 @@ do
         case 21:
             //Polymorphism Concept
 
-          
+            polymorphismObj.polymorphismMethod();
 
             break;
 
